@@ -1,0 +1,134 @@
+body {
+    color: white;
+    font-family: arial;
+    margin: 0;
+}
+
+h1, h2 {
+    font-weight: 10;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+.headerbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1A526B;
+    padding: 10px;
+}
+
+.menubar {
+    display:flex;
+    gap: 55px;
+}
+
+.sccontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+
+.socialcircle {
+    background-color: white;
+    border-radius: 100px;
+    height: 35;
+    width: 35;
+}
+
+.headerphoto {
+    background-image: url("images/spag-header.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350;
+    background-position: 0px -400px;
+}
+
+.menumarker {
+    background-color: #1A526B;
+    height: fit-content;
+    width: fit-content;
+    padding: 30px;
+    font-size: 6rem;
+    position: relative;
+    top: 220;
+    left: 200;
+}
+
+.bodybackground {
+    background-color: #171717;
+    height: 800;
+    padding: 80 80 80 80;
+}
+
+.bodybackground p {
+    font-size: 1.15rem;
+}
+
+.bodycards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50 0;
+
+}
+
+.mealcard {
+    display: flex;
+    flex-direction: column;
+}
+
+.foodtext {
+    height: 50px;
+    margin: 70 0 0;
+    width: 400px;
+}
+
+.foodimage1 {
+    background-image: url("images/spag-header.avif");   
+}
+
+.foodimage2 {
+    background-image: url("images/bolognese.webp");
+}
+
+.foodimage3 {
+    background-image: url("images/stir-fry.webp");
+}
+
+.foodimage {
+    display:flex;
+    margin: 0 0 0;
+    height: 400;
+    width: 400;
+    background-size: cover;
+    justify-content: flex-end;
+}
+
+.mealcard h3 {
+    background-color: #1A526B;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 10;
+    position: relative;
+    top: 330px;
+    right: 30px;
+}
+
+#lastline {
+    display:flex;
+    margin: 100 0 0;
+}
+
+.footerbar {
+    background-color: #1A526B;
+    padding: 5 80;
+}
